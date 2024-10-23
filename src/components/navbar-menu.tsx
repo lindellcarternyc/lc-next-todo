@@ -37,17 +37,17 @@ export function NavbarMenu() {
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem onClick={() => setIsOpen(false)}>
-          <Link href="/" className="flex gap-2 items-center">
+          <Link href="/" className="flex gap-2 items-center w-full">
             <Clock /> Today
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setIsOpen(false)}>
-          <Link href="/calendar" className="flex gap-2 items-center">
+          <Link href="/calendar" className="flex gap-2 items-center w-full">
             <Calendar /> Calendar
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setIsOpen(false)}>
-          <Link href="/new" className="flex gap-2 items-center">
+          <Link href="/new" className="flex gap-2 items-center border w-full">
             <Plus /> New
           </Link>
         </DropdownMenuItem>
