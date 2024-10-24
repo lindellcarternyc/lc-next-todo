@@ -47,7 +47,7 @@ export function NavbarMenu() {
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setIsOpen(false)}>
-          <Link href="/new" className="flex gap-2 items-center border w-full">
+          <Link href="/new" className="flex gap-2 items-center w-full">
             <Plus /> New
           </Link>
         </DropdownMenuItem>
